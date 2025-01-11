@@ -92,7 +92,7 @@ const Enquery = () => {
     <input type="text" name="name" value={formData.name} placeholder="Full name" className='w-full h-8 px-2 outline-none rounded focus:ring-[0.05rem] ring-green-400' onChange={handleChange}/>
     <input type="text" name="email" value={formData.email} placeholder="Email address" className='w-full h-8 px-2 outline-none rounded focus:ring-[0.05rem] ring-green-400' onChange={handleChange}/>
     <input type="tel" name="phone" value={formData.phone} placeholder="Phone number" className='w-full h-8 px-2 outline-none rounded focus:ring-[0.05rem] ring-green-400' onChange={handleChange}/>
-    <textarea name="message" value={formData.message} rows="3" placeholder="Write your message" className='bg-[#ffff] w-full px-2 outline-none rounded focus:ring-[0.05rem] ring-green-400' onChange={handleChange}></textarea>
+    <textarea name="message" value={formData.message} rows="2" placeholder="Write your message" className='bg-[#ffff] w-full px-2 outline-none rounded focus:ring-[0.05rem] ring-green-400' onChange={handleChange}></textarea>
     <input type="submit" value={formData._id ? "Update" : "Submit"} className='w-full h-8 px-2 text-white font-semibold outline-none rounded bg-green-900'/>
   </form>
   </div>
