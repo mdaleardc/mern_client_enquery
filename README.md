@@ -8,15 +8,15 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # mern_client_enquery
 
-Client-Side (Frontend) Description
+## Client-Side (Frontend) Description
 
 Project Title: User Inquiry Management System (Frontend)
 Tech Stack: ReactJS, Axios, Tailwind CSS
 
-Description:
+## Description:
 The frontend is a user-friendly interface built with ReactJS that allows users to submit inquiries and administrators to manage those inquiries. The UI provides functionality to Create, Read, Update, and Delete (CRUD) inquiries, ensuring smooth interaction with the backend API.
 
-Key Features:
+## Key Features:
 
 Inquiry Submission Form: Users can submit their name, email, phone number, and a message.
 
@@ -31,7 +31,7 @@ Real-Time Updates: Automatically refreshes the inquiry list after submission, up
 Notifications: Uses toast messages to provide success and error feedback.
 
 
-API Integration:
+## API Integration:
 
 Connected to the backend through Axios to perform CRUD operations.
 
