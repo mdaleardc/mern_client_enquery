@@ -102,7 +102,7 @@ const Enquery = () => {
   <table className='w-full bg-white rounded table-auto text-left'>
     <thead>
       <tr className='h-9'>
-        <th>SR#</th>
+        <th>ID</th>
         <th>NAME</th>
         <th>EMAIL</th>
         <th>PHONE</th>
